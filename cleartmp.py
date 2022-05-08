@@ -79,5 +79,3 @@ def ClearTemp(disco):
             os.remove(os.path.join(caminho, file))
         except:
             ...
-
-    return 'Cleaned'

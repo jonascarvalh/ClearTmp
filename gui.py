@@ -6,7 +6,8 @@ import status
 root = tk.Tk()
 root.title("ClearTemp")
 root.geometry('250x200')
-    
+root.resizable(False, False)
+
 disks = GetDisks()
 
 sucess_label = tk.Label(text='')
