@@ -1,7 +1,7 @@
 import getpass
 import os
 import shutil
-import status
+from src import status
 
 def GetDisks():
     # Disks Avaiable in System
